@@ -245,7 +245,7 @@ ul li:hover a{
     margin-bottom: 20px;
     cursor: pointer;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 15px;
 }
 .skill-card:hover svg{
     fill: white;
@@ -263,6 +263,7 @@ ul li:hover a{
     height: 50px;
     fill: var(--main-color);
     transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 40px;
 }
 
 /* Contact */
@@ -302,7 +303,14 @@ ul li:hover a{
     color: var(--bg-color);
     border-radius: 2px;
     outline: none;
-    border: none;
+    border: 1px solid var(--main-color);
+    transition: .3s;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background-color: transparent;
 }
 /* Footer */
 footer {
